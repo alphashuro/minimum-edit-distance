@@ -1,9 +1,9 @@
 # minimum-edit-distance
-A CLI implementing the minimum edit distance algorithm in rust
+A CLI implementing the minimum edit distance algorithm in rust.
 
 ## building and running
 
-1. [set up rust](https://doc.rust-lang.org/book/ch01-01-installation.html)
+1. set up rust [the raw way](https://doc.rust-lang.org/book/ch01-01-installation.html) or [install nix](https://nixos.org/manual/nix/stable/installation/installing-binary.html) and start a `nix-shell`
 2. `cargo run -- --help`
 
 for example:
