@@ -11,7 +11,7 @@ for example:
 
 You can of course just run the executable directly as well.
 
-## source
+## explanation
 
 The _minimum edit distance_ for two strings is the minimum number of _insertion, deletion, or replacement_ operations 
 required to convert the first string to the second. It is generally calculated using a grid, 
