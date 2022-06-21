@@ -17,7 +17,7 @@ struct Args {
     to: String,
 
     /// Print the distance matrix
-    #[clap(short, long, value_parser, default_value_t = true)]
+    #[clap(short, long, value_parser, default_value_t = false)]
     matrix: bool,
 
     /// Insertion cost
@@ -149,5 +149,8 @@ fn main() {
     let distance = matrix.get_distance(None);
 
     println!("distance: {}", distance);
-    println!("\nmatrix: \n{}", matrix)
+    
+    if args.matrix {
+        println!("\nmatrix: \n{}", matrix)
+    }
 }
