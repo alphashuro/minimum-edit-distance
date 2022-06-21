@@ -22,7 +22,7 @@ For example:
 
 In this case, 4 is the minimum edit distance.
 
-## Steps to build the grid
+## steps to build the grid
 
 1. first, the initial cells for header column and row (`grid[header_row][1]` and `grid[first_row][0]`) represent an empty string, `""`, or `#` in NLP lingo. 
   the cost for these is 0.
