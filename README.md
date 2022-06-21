@@ -1,6 +1,18 @@
 # minimum-edit-distance
 A CLI implementing the minimum edit distance algorithm in rust
 
+## building and running
+
+1. [set up rust](https://doc.rust-lang.org/book/ch01-01-installation.html)
+2. `cargo run -- --help`
+
+for example:
+`cargo run -- --from common --to coming --matrix`
+
+You can of course just run the executable directly as well.
+
+## source
+
 The _minimum edit distance_ for two strings is the minimum number of _insertion, deletion, or replacement_ operations 
 required to convert the first string to the second. It is generally calculated using a grid, 
 where each value in the cells is the minimum edit distance for the substring that ends at that column and row.
